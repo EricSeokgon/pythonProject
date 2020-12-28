@@ -1,4 +1,4 @@
-import csv, os
+import csv, re
 
 
 def opencsv(filename):
