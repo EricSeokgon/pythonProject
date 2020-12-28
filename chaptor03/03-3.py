@@ -15,8 +15,9 @@ f.close()
 
 f = open('monica.txt', 'w', encoding='utf-8')
 monica = ''
-
 for i in Line:
-    monica += i
+    monica += i+'\n'
+monica[:100]
+f = open('monica.txt', 'w', encoding='utf-8')
 f.write(monica)
 f.close()
