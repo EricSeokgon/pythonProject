@@ -9,3 +9,5 @@ print(d)
 print(d[1][2])
 
 print(d[1:,3:])
+
+print(d.shape)
